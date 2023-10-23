@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <title>Solo Attempt</title>
+</head>
+<body>
+    <!-- NOTE TO SELF!!! so before the browser was acting weird and not showing me all the elemetns until the button was clicked and displayed all the elements on screen so i set some defaults to the h1 and img tags so it doesnt act up even when button isnt clicked -->
+    <!-- h1 will be dynamic -->
+    <!-- <h1>Let's Play</h1> -->
+    <div class="main-wrapper">
+        <!-- h1 will be dynamic -->
+        <h1>Let's Play</h1>
+
+        <div id="p1-container" class="dice-div">
+            <p>Player 1</p>
+            <!-- <p>Score</p> -->
+            <p class="p1score scores">0</p>
+            <img src="./assets/dice1.png">
+            <!-- WE'LL TRY TO MAKE ANOTHER DICE -->
+            <!-- <img src="./assets/dice1.png" alt=""> -->
+        </div>
+
+        <div id="p2-container" class="dice-div">
+            <p>Player 2</p>
+            <!-- <p>Score</p> -->
+            <p class="p2score scores">0</p>
+            <img src="./assets/dice1.png">
+            <!-- <img src="./assets/dice1.png" alt=""> -->
+            <!-- WE'LL TRY TO MAKE ANOTHER DICE -->
+        </div>
+
+        <!-- <button id="btn-id" class="btn-class">Roll em!</em></button> -->
+        <button id="btn-id" class="rollDice"><i class="fa-solid fa-dice"></i>Roll dice</button>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>

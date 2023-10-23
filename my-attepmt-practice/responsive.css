@@ -1,0 +1,21 @@
+@media (min-width: 280px) and (max-width: 550px) {
+
+    h1 {
+        padding-top: 7px;
+        font-size: 1.5rem;
+        color: #704a86;
+    }
+
+    .dice-div p {
+        font-size: 1rem;
+        color: #704a86;
+    }
+
+    img {
+        width: 100px;
+    }
+}
+
+
+
+

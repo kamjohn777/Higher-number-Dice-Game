@@ -1,0 +1,159 @@
+/* body { */
+    /* background: rgb(184, 97, 241); */
+    /* background: linear-gradient(to right, rgb(173, 52, 173), hsl(348, 97%, 63%)); */
+    /* background: rgb(208, 214, 218); */
+    /* background: linear-gradient(180deg, #7522d3, #814ca0); */
+    /* background: radial-gradient(circle at 10% 20%, rgb(236, 158, 248) 0%, rgb(131, 83, 241) 90.1%); */
+/* } */
+
+@keyframes moveGradient {
+    0% {
+        background-position: center top;
+    }
+    100% {
+        background-position: center bottom;
+    }
+}
+
+body {
+    animation: moveGradient 2s linear infinite;
+    background: radial-gradient(circle at center center, rgb(236, 158, 248) 0%, rgb(131, 83, 241) 90.1%);
+}
+
+
+
+.main-wrapper {
+    display: flex;
+    width: 70%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 15px;
+    background: linear-gradient(to right, #a393eb, #f5c7f7);
+}
+
+h1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    font-size: 4rem;
+    /* color: #704a86; */
+    color: #5c5470;
+
+}
+
+#p1-container {
+    /* width: 100%; */
+    /* background-color: purple; */
+    /* background: linear-gradient(179deg, rgb(110, 144, 242) 3.3%, rgb(245, 193, 193) 100%); */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /* background-color: purple; */
+    /* margin-bottom: 20px; */
+    /* background: linear-gradient(179deg, rgb(110, 144, 242) 3.3%, rgb(245, 193, 193) 100%); */
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#p2-container {
+    width: 100%;
+    /* background-color: rgb(208, 214, 218); */
+     /* width: 100%; */
+    /* background-color: purple; */
+    /* background: linear-gradient(179deg, rgb(110, 144, 242) 3.3%, rgb(245, 193, 193) 100%); */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /* background-color: purple; */
+    /* margin-bottom: 20px; */
+    /* background: linear-gradient(179deg, rgb(110, 144, 242) 3.3%, rgb(245, 193, 193) 100%); */
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 30px;
+    background-color: rgb(240 228 246);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dice-div {
+    /* background: red; */
+    width: 50%;
+    /* margin: 0px 50px; */
+    /* display: inline-block; */
+    text-align: center;
+}
+
+.dice-div p {
+    /* font-size: 2.5rem; */
+    font-size: 2rem;
+    /* color: #704a86; */
+    color: #5c5470;
+}
+
+.scores {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* New Dice button */
+
+button:hover {
+    transform: translateY(1px);
+    background: #fafafa;
+    height: 46px;
+}
+
+button i {
+    color: purple;
+    margin-right: 5px;
+}
+
+
+button.rollDice {
+    position: fixed;
+    left: 44%;
+    right: 50%;
+    bottom: 160px;
+    height: 48px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    color: #707070;
+    font-weight: 300;
+    min-width: 150px;
+    font-size: 1em;
+    border: none;
+    display: block;
+    text-align: center;
+    -webkit-transition: all 0.25s;
+    -o-transition: all 0.25s;
+    transition: all 0.25s;
+    ;
+}
+/* End of new dice button */
+
+/* .btn-class {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 36px;
+    color: #704a86;
+    box-shadow: 5px 4px 6px black;
+    background: #c741b2;
+    display: inline-block;
+    border: solid 0.5px #67226b;
+    border-radius: 7px;
+} */
+
+img {
+    /* width: 300px; */
+    width: 100px;
+    /* we'll try and add another dice so that's why we have width 100px */
+}
